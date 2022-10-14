@@ -1,3 +1,4 @@
+//Ejercicio "Mi primer Java Script" (equivalente)
 var name = 'Catalina';
 var age = 22;
 var single = false;
@@ -32,3 +33,72 @@ var user = {
 }
 
 console.log(name, age, single, numbers, colleagues, values, user);
+
+//Ejercicio "Tomando decisiones"
+console.log("IF-ELSE")
+console.log("Marital status:")
+
+if (single=true) {
+    console.log("In a relationship");
+} else {
+    console.log("Single"); 
+}
+
+console.log("Age range:")
+
+if (age<30) {
+    console.log("Age is less than 30")
+} else {
+    console.log("Age is more than 30")
+}
+
+console.log("SWITCH")
+console.log("Do you have pets?:")
+
+var pet= "no";
+
+switch (pet) {
+    case 'no':
+        console.log("User has no pets");
+    break;
+    case 'cat':
+        console.log("User has a cat");
+    break;
+    case 'dog':
+        console.log("User has a dog");
+    break;
+    default:
+        console.log("None of above");
+}
+
+var pet= "cat";
+
+switch (pet) {
+    case 'no':
+        console.log("User has no pets");
+    break;
+    case 'cat':
+        console.log("User has a cat");
+    break;
+    case 'dog':
+        console.log("User has a dog");
+    break;
+    default:
+        console.log("None of above");
+}
+
+var pet='bird';
+
+switch (pet) {
+    case 'no':
+        console.log("User has no pets");
+    break;
+    case 'cat':
+        console.log("User has a cat");
+    break;
+    case 'dog':
+        console.log("User has a dog");
+    break;
+    default:
+        console.log("None of above");
+}
