@@ -59,46 +59,46 @@ var pet= "no";
 
 switch (pet) {
     case 'no':
-        console.log("User has no pets");
+        console.log("U1: User has no pets");
     break;
     case 'cat':
-        console.log("User has a cat");
+        console.log("U1: User has a cat");
     break;
     case 'dog':
-        console.log("User has a dog");
+        console.log("U1: User has a dog");
     break;
     default:
-        console.log("None of above");
+        console.log("U1: None of above");
 }
 
 var pet= "cat";
 
 switch (pet) {
     case 'no':
-        console.log("User has no pets");
+        console.log("U2: User has no pets");
     break;
     case 'cat':
-        console.log("User has a cat");
+        console.log("U2: User has a cat");
     break;
     case 'dog':
-        console.log("User has a dog");
+        console.log("U2: User has a dog");
     break;
     default:
-        console.log("None of above");
+        console.log("U2: None of above");
 }
 
 var pet='bird';
 
 switch (pet) {
     case 'no':
-        console.log("User has no pets");
+        console.log("U3: User has no pets");
     break;
     case 'cat':
-        console.log("User has a cat");
+        console.log("U3: User has a cat");
     break;
     case 'dog':
-        console.log("User has a dog");
+        console.log("U3: User has a dog");
     break;
     default:
-        console.log("None of above");
+        console.log("U3: None of above");
 }
